@@ -59,6 +59,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\sandbox\BKTree.NET.Sandbox\BKTree.NET.Sandbox.csproj">
+      <Project>{72B48D57-2FBA-4772-B195-C4632617F653}</Project>
+      <Name>BKTree.NET.Sandbox</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\src\BKTree.NET\BKTree.NET.csproj">
       <Project>{7A462777-7680-4891-950B-DB880EEC6E4D}</Project>
       <Name>BKTree.NET</Name>
