@@ -39,12 +39,7 @@ namespace BKTree.NET.Benchmarks
         {
             public Config()
             {
-                Add(
-                    new Job
-                    {
-                        Env = {Platform = Platform.X64, Jit = Jit.RyuJit},
-                        Run = { RunStrategy = RunStrategy.ColdStart}
-                    });
+                Add(new Job(EnvMode.RyuJitX64, EnvMode.Clr, RunMode.Dry));
             }
         }
     }
