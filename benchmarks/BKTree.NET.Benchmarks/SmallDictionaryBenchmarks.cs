@@ -10,6 +10,7 @@ using BKTree.NET.Sandbox.Utils;
 namespace BKTree.NET.Benchmarks
 {
     [Config(typeof(Config))]
+    [MemoryDiagnoser]
     public class SmallDictionaryBenchmarks
     {
         private readonly BKTree<string> _sut;
